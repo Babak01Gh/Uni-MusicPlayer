@@ -7,5 +7,5 @@ pip install python-vlc
 vlc media player
 ```
 ## Download Link
-**You can Download vlc from following Link**
+**You can Download vlc from This Link**
 https://www.videolan.org/vlc/download-windows.html
