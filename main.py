@@ -1,4 +1,3 @@
-from logging import root
 import vlc
 from tkinter import *
 from tkinter.ttk import Combobox, Style
@@ -18,7 +17,7 @@ btnColor = '#E7E3D4'
 rootColor = '#B39BC8'
 # ? =========================EndVariables=========================
 
-# ? =========================Make Root=========================
+# ? =========================Create Root=========================
 mainWindow = Tk()
 mainWindow.title('Music Player')
 mainWindow.config(bg=rootColor)
@@ -27,7 +26,7 @@ mainWindow.resizable(False, False)
 mainWindow.option_add("*TCombobox*Background", secondaryColor)
 mainWindow.option_add("*TCombobox*Foreground", fontColor)
 music = StringVar(None, 'nothing Play')
-# ? =========================End Make Root=========================
+# ? =========================End Create Root=========================
 
 # ? =========================Typography & Styles=========================
 myFont = font.Font(weight="bold", size=10)
