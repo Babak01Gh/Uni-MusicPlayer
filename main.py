@@ -121,8 +121,7 @@ def Repeat_def():
 
 def timerStart():
     fullTime = media_player.get_media_player().get_time()//1000
-    second = fullTime % 60
-    minute = divmod(fullTime, 60)[0]
+    minute,second = divmod(fullTime, 60)
     music.set('{0:02d}:{1:02d}:{2:02d}'.format(0, minute, second))
     musicName.after(int(1000//float(rate.get())), timerStart)
 
